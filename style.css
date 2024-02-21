@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     color: rgb(0, 0, 0);
+    overflow-y: hidden;
 }
 .boton {
     padding: 10px 20px;
@@ -16,6 +17,7 @@ body{
   font-weight: 400;
   padding: 0px 30px 0px 30px;
 
+
   }
   .cuerpo{
     display: flex;
@@ -26,6 +28,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
   }
 .contenedor{
     width: 40%;
@@ -35,6 +38,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
 }
 .botones{
     width: 80%;
