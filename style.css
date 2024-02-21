@@ -8,7 +8,13 @@ body{
     margin: 10px;
   }
   .popup{
-    display: none;
+  display: none;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 0px 30px 0px 30px;
+
   }
   .cuerpo{
     display: flex;
@@ -45,12 +51,19 @@ justify-content: center;
 .titulo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.feliz{
+  display: none;
+}
+
 @media (max-width: 600px) {
   .contenedor{
-
+    justify-content: space-evenly;
     width: 100%;
   }
   .cry{
     width: 80%;
+  }
+  .feliz{
+    width: 100%;
   }
 }

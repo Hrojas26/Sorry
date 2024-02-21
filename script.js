@@ -48,5 +48,9 @@ botonB.addEventListener('click', cambiarTextoB);
 document.getElementById("botonA").addEventListener("click", function() {
 document.querySelector(".popup").style.display = "flex";
 document.querySelector(".botones").style.display = "none";
+document.querySelector(".cry").style.display = "none";
+document.querySelector(".feliz").style.display = "flex";
+document.querySelector(".contenedor").style.background = "#FFCCFA";
+document.querySelector(".titulo").style.display = "none";
 
   });
