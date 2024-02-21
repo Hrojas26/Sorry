@@ -25,6 +25,7 @@ function cambiarTextoB() {
       'jaja mentiras, eso si JAMAS, perdoname -_-)',
       'No me obligues a obligarte',
       '¿enserio?',
+      'OK, TU LO PEDISTE',
       'Tu lo pediste',
     ];
     contadorB++;

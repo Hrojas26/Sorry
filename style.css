@@ -55,19 +55,29 @@ justify-content: center;
   display: none;
 }
 #botonA{
-  background-color: greenyellow;
-  border: none;
+  background-color: #FFCDD4;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#botonA::after{
+  content: " 🌸 ";
 
 }
 
 #botonB{
-  background-color: red;
-  color: white;
-  border: none;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .baile{
   display: none;
+  width: 70%;
+  border: 10px solid white;
 }
+.baile>img{
+  width: 100%;
+}
+
 
 @media (max-width: 600px) {
   .contenedor{
