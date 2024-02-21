@@ -71,7 +71,7 @@ justify-content: center;
 }
 .baile{
   display: none;
-  width: 70%;
+  width: 50%;
   border: 10px solid white;
 }
 .baile>img{
