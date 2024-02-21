@@ -45,3 +45,12 @@ justify-content: center;
 .titulo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media (max-width: 600px) {
+  .contenedor{
+
+    width: 100%;
+  }
+  .cry{
+    width: 80%;
+  }
+}
