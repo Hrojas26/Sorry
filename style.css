@@ -54,6 +54,20 @@ justify-content: center;
 .feliz{
   display: none;
 }
+#botonA{
+  background-color: greenyellow;
+  border: none;
+
+}
+
+#botonB{
+  background-color: red;
+  color: white;
+  border: none;
+}
+.baile{
+  display: none;
+}
 
 @media (max-width: 600px) {
   .contenedor{

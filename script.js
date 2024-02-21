@@ -21,8 +21,8 @@ function cambiarTextoB() {
       'si me perdonas te gasto unas salchipapas, va?',
       'no seas tan dura',
       'ni las salchipapas pudieron con esto',
-      'ME RINDO',
-      'jaja mentiras NO, perdoname',
+      'ME RINDO :(',
+      'jaja mentiras, eso si JAMAS, perdoname -_-)',
       'No me obligues a obligarte',
       '¿enserio?',
       'Tu lo pediste',
@@ -52,5 +52,6 @@ document.querySelector(".cry").style.display = "none";
 document.querySelector(".feliz").style.display = "flex";
 document.querySelector(".contenedor").style.background = "#FFCCFA";
 document.querySelector(".titulo").style.display = "none";
+document.querySelector(".baile").style.display = "flex";
 
   });
