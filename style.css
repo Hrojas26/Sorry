@@ -71,7 +71,7 @@ justify-content: center;
 
 @media (max-width: 600px) {
   .contenedor{
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
   }
   .cry{
