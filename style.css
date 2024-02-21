@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    color: rgb(0, 0, 0);
 }
 .boton {
     padding: 10px 20px;
@@ -56,17 +57,12 @@ justify-content: center;
 }
 #botonA{
   background-color: #FFCDD4;
-
+  color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#botonA::after{
-  content: " 🌸 ";
-
-}
-
 #botonB{
-  
+  color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .baile{
