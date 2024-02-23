@@ -4,7 +4,7 @@ let contadorB = 0;
 let tamanoA = 20;
 
 // Referenciamos los botones
-const botonA = document.getElementById('botonA');
+const botonA = document.getElementById('botonA');  
 const botonB = document.getElementById('botonB');
 
 // Función para cambiar el texto de B y aumentar el tamaño de A
